@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mainactivity.musicplayer.example.com.englishzubrila">
+
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ici"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.home.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.fragments.gallery.InitialFragment"
+            android:launchMode="singleTop" />
+        <activity android:name=".ui.courses.alphabet.Alphabet"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.transcription.Transcription"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.tobe.ToBe"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.quastions.Questions"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.prular.PluralForm"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.teherels.ThereIS"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.articles.Articles"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.fragments.books.model.web.WebViewB"
+            android:launchMode="singleTop"/>
+        <activity android:name=".ui.courses.simple.PresentSimple"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.dodoes.DoDoes"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.can.Can"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.continuous.PresentContinuous"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.must.Must"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.haveto.HaveTo"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.direct.Directandindirectspeech"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.future.TheFutureSimple"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.comparative.ComparativeSuperlativeDegrees"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.emty.IsEmty"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+
+        <activity android:name=".ui.courses.alphabet.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.alphabet.test.TestAlphabet"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.articles.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.articles.test.TestArticles"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.prular.test.TestPluralForm"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.prular.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.quastions.test.TestQuestions"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.quastions.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.simple.test.TestPresentSimple"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.simple.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.teherels.test.TestTherelS"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.teherels.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.tobe.test.TestToBe"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.tobe.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.transcription.test.TestTranscription"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.transcription.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.dodoes.test.TestDoDoes"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.dodoes.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.can.test.TestCan"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.can.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.continuous.test.TestContinuous"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.continuous.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.must.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.must.test.TestMust"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.haveto.test.TestHaveTo"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.haveto.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.direct.test.TestDirect"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.direct.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.future.test.TestFutureSimple"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.future.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.comparative.test.TestComparative"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.courses.comparative.test.resultActivity"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"/>
+        <activity android:name=".ui.fragments.heatsheets.CheatSheets" />
+        <activity android:name=".ui.fragments.gallery.Information.MenuInformation"
+            android:parentActivityName=".ui.fragments.gallery.InitialFragment"
+            android:launchMode="singleTop"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>
